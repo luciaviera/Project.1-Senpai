@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="12px" viewBox="0 0 12 12" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="12" height="12" style="fill:rgb(0%,0%,0%);fill-opacity:0.8;stroke:none;"/>
+  </g>
+</mask>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="12" height="12" style="fill:rgb(0%,0%,0%);fill-opacity:0.8;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="12" height="12"/>
+</clipPath>
+<g id="surface6" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(94.901961%,94.901961%,94.901961%);fill-opacity:1;" d="M 6.058594 2.910156 L 6 5.96875 L 2.941406 6.089844 L -0.148438 6.179688 L 2.910156 6.238281 L 5.96875 6.300781 L 6.089844 9.210938 L 6.179688 12.148438 L 6.238281 9.238281 L 6.300781 6.328125 L 9.238281 6.210938 L 12.148438 6.121094 L 9.238281 6.058594 L 6.328125 6 L 6.210938 2.910156 L 6.121094 -0.148438 Z M 6.058594 2.910156 "/>
+</g>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="12" height="12"/>
+</clipPath>
+<g id="surface8" clip-path="url(#clip1)">
+<use xlink:href="#surface6" mask="url(#mask1)"/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface8" mask="url(#mask0)"/>
+</g>
+</svg>

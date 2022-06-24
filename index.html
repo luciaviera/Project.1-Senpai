@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="Product">
+    <div class="header-container">
+        <header>
+            <!--position: sticky, es el nav -->
+            <div>
+                <img class="header_logo" src="Materiales/logo-verde.png" height=45 />
+                <h1 class="header__h text-side_margins">Flex</h1>
+            </div>
+            <nav class="text-color-grey">
+                <ul class="nav-list">
+                    <li class="text-side_margins"><a href="#Product">Producto</a></li>
+                    <li class="text-side_margins"><a href="#Chars">Características</a></li>
+                    <li class="text-side_margins"><a href="#Prices">Precios</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a class="text-side_margins text-color-grey">Ingresar</a>
+                <a class=" btn btn_green btn_green-1">Registrarse</a>
+            </div>
+        </header>
+    </div>
+    <div class="background">
+        <main>
+            <section class="product">
+                <!--Texto y fotos, display Flex -->
+                <div class="product-division product-left">
+                    <!-- Contenedor izquierdo-->
+                    <div>
+                        <div>
+                            <!-- box de nuevo-->
+                            <p class="highlight new">NUEVO</p>
+                        </div>
+                    </div>
+                    <h1 class="product__h text">La plataforma para las empresas del futuro </h1>
+                    <p>Productos pensados para los negocios del próximo siglo </p>
+                    <div class="btn-container">
+                        <!--Botones-->
+                        <a class="btn btn-main btn_green">Solicitar demo</a>
+                        <a class="btn btn-main btn-grey text-color-grey text-side_margins">Registrarse</a>
+                    </div>
+                </div>
+                <div class="product-division main_pic">
+                    <!-- Parte derecha, foto principal-->
+                    <img class="pic-circle" src="Materiales/circle3-yellow.svg" /> <!-- usar margenes para ubicarlas flotando-->
+                </div>
+            </section>
+            <img id="Chars" class="pic-dots" src="Materiales/dots3-blue.svg" /> <!-- usar margenes para ubicarlas flotando-->
+            <section>
+                <!--Caracteristicas-->
+                <div class="flexcont">
+                    <!--contenedor grid-->
+                    <div class="flexitem">
+                        <div class="icon-container">
+                            <!--Donde va el icono-->
+                            <div class="icon-box">
+                                <!--Contenerdor del icono "icono"-->
+                                <img class="icon" src="Materiales/mail-icon.svg" />
+                            </div>
+                        </div>
+                        <h4>Capacitación</h4>
+                        <p class="text-char">Asistencia y capacitación de primer nivel</p>
+                    </div>
+                    <div class="flexitem">
+                        <div class="icon-container">
+                            <!--Donde va el icono-->
+                            <div class="icon-box">
+                                <!--Contenerdor del icono "icono"-->
+                                <img class="icon" src="Materiales/analytics-icon.svg" />
+                            </div>
+                        </div>
+                        <h4>Analíticas claras</h4>
+                        <p class="text-char">Disfruta de un dashboard de analíticas claras y accionables</p>
+                    </div>
+                    <div class="flexitem">
+                        <div class="icon-container">
+                            <!--Donde va el icono-->
+                            <div class="icon-box">
+                                <!--Contenerdor del icono "icono"-->
+                                <img class="icon" src="Materiales/people-icon.svg" />
+                            </div>
+                        </div>
+                        <h4>Soluciones para equipos</h4>
+                        <p id="Prices" class="text-char">Facilita el accionar de tu empresa con nuestra suite de herramientas</p>
+                    </div>
+                </div>
+            </section>
+            <section class="align-center">
+                <!--Precios-->
+                <h2>Precios flexibles que escalan contigo</h2>
+                <p>Nuestra facturación se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 dias en todos nuestros planes.</p>
+                <section>
+                    <!--Listado de precios-->
+                    <div class="flexcont-prices">
+                        <!--Contenedor flex precios-->
+                        <div class="price-container flexitem">
+                            <div class="price">
+                                <!--Precio individual-->
+                                <p class="text-color-green">PRECIO</p>
+                                <h5 class="text-color-green poppins">Plan básico</h5>
+                                <h3 class="poppins">
+                                    <span class="price_sign">$</span>
+                                    <span class="price_num">10</span><!--Numero precio-->
+                                    <span class="price_month">/mes</span> <!--mes precio-->
+                                </h3>
+                                <h6 class="text-color-grey poppins">Facturado anualmente</h6>
+                                <ul class="prices__ul text-color-grey poppins">
+                                    <!--lista de caractersticas-->
+                                    <li>1GB de almacenamiento</li>
+                                    <li>Dashboard completo</li>
+                                    <li>Asistencia por correo</li>
+                                    <li>Hasta 10 miembros</li>
+                                </ul>
+                                <a class="btn_green btn_green-2 poppins">Solicitar demo</a> <!--Boton-->
+                            </div>
+                        </div>
+                        <div class="price-container flexitem">
+                            <div class="price">
+                                <!--Precio individual-->
+                                <p class="text-color-green">PRECIO</p>
+                                <h5 class="text-color-green poppins">Plan freelancer</h5>
+                                <h3 class="poppins">
+                                    <span class="price_sign">$</span>
+                                    <span class="price_num">99</span><!--Numero precio-->
+                                    <span class="price_month">/mes</span> <!--mes precio-->
+                                </h3>
+                                <h6 class="text-color-grey poppins">Facturado anualmente</h6>
+                                <ul class="prices__ul text-color-grey poppins">
+                                    <!--lista de caractersticas-->
+                                    <li>Características básicas</li>
+                                    <li>Asistencia preferencial</li>
+                                    <li>100GB de almacenamiento</li>
+                                    <li>Hasta 100 miembros</li>
+                                </ul>
+                                <a class="btn_green btn_green-2 poppins">Solicitar demo</a> <!--Boton-->
+                            </div>
+                        </div>
+                        <div class="price-container flexitem"> 
+                            <div class="price">
+                                <!--Precio individual-->
+                                <p class="text-color-green">PRECIO</p>
+                                <h5 class="text-color-green poppins">Plan empresas</h5>
+                                <h3 class="poppins">
+                                    <span class="price_sign">$</span>
+                                    <span class="price_num">799</span><!--Numero precio-->
+                                    <span class="price_month">/mes</span> <!--mes precio-->
+                                </h3>
+                                <h6 class="text-color-grey poppins">Facturado anualmente</h6>
+                                <ul class="prices__ul text-color-grey poppins">
+                                    <!--lista de caractersticas-->
+                                    <li>Características freelamcer</li>
+                                    <li>1TB de almacenamiento</li>
+                                    <li>Asistencia telefonica 24/7</li>
+                                    <li>Miembros ilimitados</li>
+                                </ul>
+                                <a class="btn_green btn_green-2 poppins">Solicitar demo</a> <!--Boton-->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="background-footer"></div>
+        <div class="footer-container">
+            <div class="footer__h">
+                <img class="footer_logo" src="Materiales/logo-verde.png" />
+                <h5 class="poppins text-side_margins2">Flex</h5>
+            </div>
+            <nav>
+                <ul class="nav-list text-color-grey">
+                    <li class="text-side_margins">Producto</li>
+                    <li class="text-side_margins">Funcionalidades</li>
+                    <li class="text-side_margins">Precios</li>
+                    <li class="text-side_margins">Recursos</li>
+                    <li class="text-side_margins">Carreras</li>
+                    <li class="text-side_margins">Ayuda</li>
+                    <li class="text-side_margins">Privacidad</li>
+                </ul>
+            </nav>
+            <hr class="end_line" />
+            <p class="text-color-grey"> &copy; 2022 Flex. Un producto ficticio de Senapi. </p>
+        </div>
+</footer>
+</body>
+</html>
